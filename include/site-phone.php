@@ -1,0 +1,1 @@
+<a href="tel:+79053945748" rel="nofollow"><span>+7 (906)</span> 173–22–25</a><a href="tel:88443556383" rel="nofollow"><span>8 (8443)</span> 55-63-83</a>
