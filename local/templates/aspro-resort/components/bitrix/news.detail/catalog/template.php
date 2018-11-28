@@ -163,7 +163,7 @@
 						"CACHE_TYPE" => $arParams['CACHE_TYPE'],
 						"CACHE_TIME" => $arParams['CACHE_TIME'],
 						"CACHE_GROUPS" => $arParams['CACHE_GROUPS'],
-						"ELEMENT_COUNT" => 5,
+						"ELEMENT_COUNT" => 20,
 						"WIDTH" => "60",
 						"WIDTH_SMALL" => "60",
 						"HEIGHT" => "60",

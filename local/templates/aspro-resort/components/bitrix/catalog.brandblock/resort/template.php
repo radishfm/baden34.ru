@@ -29,6 +29,7 @@ $handlerIDS = array();
 
 foreach ($arResult["BRAND_BLOCKS"] as $blockId => $arBB)
 {
+
 	$brandID = 'brand_'.$arResult['ID'].'_'.$strRand;
 	$popupID = $brandID.'_popup';
 
@@ -39,7 +40,7 @@ foreach ($arResult["BRAND_BLOCKS"] as $blockId => $arBB)
 	$bImage = $arBB['PICT']['SRC'];
 	$arImage = ($bImage ? CFile::ResizeImageGet($arBB['PICT'], array('width' => 60, 'height' => 60), BX_RESIZE_IMAGE_PROPORTIONAL_ALT, true) : array());
 	$imageSrc = ($bImage ? $arImage['src'] : false);
-
+	//echo '<pre>'; var_export([$bImage, $arBB['PICT'], $imageSrc, $arImage]); echo '</pre>';
 	switch ($arBB['TYPE'])
 	{
 		default:
@@ -49,7 +50,8 @@ foreach ($arResult["BRAND_BLOCKS"] as $blockId => $arBB)
 					<?if($bImage):?>
 						<div class="image">
 							<?if($useLink):?><a href="<?=$arBB['LINK']?>"><?endif;?>
-							<img src=<?=$imageSrc?> />
+							<?/* <img src=<?=$imageSrc?> /> */?>
+							<img src=<?= $bImage?> />
 							<?if($useLink):?></a><?endif;?>
 						</div>
 					<?endif;?>

@@ -35,5 +35,5 @@ $MESS["CT_BST_SEARCH_BUTTON"] = 'Найти';
 $MESS["HEADER_CONTACTS_LINK"] = 'Схема<br> проезда';
 $MESS["CONTACTS_LINK"] = 'Схема проезда';
 $MESS["INSTAGRAM_TITLE"] = 'Мы в Instagram';
-$MESS["INSTAGRAM_DESCRIPTION"] = 'Отдых в экологически чистом месте, на берегу Лесного озера — это то, о чём мечтает любой горожанин!';
+$MESS["INSTAGRAM_DESCRIPTION"] = 'Отдых в экологически чистом месте, на берегу Ахтубы — это то, о чём мечтает любой посетитель!';
 ?>
