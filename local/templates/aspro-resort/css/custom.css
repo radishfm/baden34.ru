@@ -1,3 +1,5 @@
-.company .spincrement1{
-	font-size: 64px;
+@media (min-width: 531px) {
+	.company .spincrement1 {
+		font-size: 64px;
+	}
 }
