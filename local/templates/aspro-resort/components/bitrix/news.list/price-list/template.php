@@ -12,29 +12,20 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
+<h2 style="text-align: left">Цены на услуги отеля «Баден Баден» с 01.11.2018 до 31.12.2018</h2>
 <? if ($arParams["DISPLAY_TOP_PAGER"]): ?>
 	<?= $arResult["NAV_STRING"] ?><br/>
 <? endif; ?>
 
 <table class="table table-striped" id="top">
 	<thead>
-	<tr>
-		<th>
-			№
-		</th>
-		<th>
-			Описание номера
-		</th>
-		<th>
-			Цена на 1-го человека, руб./сут.
-		</th>
-		<th>
-			Цена на 2-х человек, руб./сут.
-		</th>
-		<th>
-			Цена номера руб./сут.
-		</th>
-	</tr>
+		<tr>
+			<th>№</th>
+			<th>Описание номера</th>
+			<th>Цена на 1-го человека, руб./сут.</th>
+			<th>Цена на 2-х человек, руб./сут.</th>
+			<th>Цена номера руб./сут.</th>
+		</tr>
 	</thead>
 	<tbody>
 <? foreach ($arResult["SECTION_ITEMS"] as $key => $section){ ?>

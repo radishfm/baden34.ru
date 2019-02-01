@@ -6,7 +6,7 @@
 		<?IncludeTemplateLangFile(__FILE__);?>
 		<title><?$APPLICATION->ShowTitle()?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="yandex-verification" content="9e15e35a3dfb2069" />
+		<meta name="yandex-verification" content="9f3ef1419cf4d39c" />
 		<link href='<?=CMain::IsHTTPS() ? 'https' : 'http'?>://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic'; rel='stylesheet' type='text/css'>
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/bootstrap.css');?>
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/fonts/font-awesome/css/font-awesome.min.css');?>
@@ -100,8 +100,21 @@
 							</div>
 							<div class="callback_wrap col-md-5 col-sm-5 col-xs-12">
 								<div class="top-callback">
-									<div class="callback pull-right hidden-xs" data-event="jqm" data-param-id="<?=CCache::$arIBlocks[SITE_ID]["aspro_resort_form"]["aspro_resort_callback"][0]?>" data-name="callback">
-										<span class="btn btn-default"><?=GetMessage("S_CALLBACK")?></span>
+<!--									<div class="callback pull-right hidden-xs" data-event="jqm" data-param-id="--><?//=CCache::$arIBlocks[SITE_ID]["aspro_resort_form"]["aspro_resort_callback"][0]?><!--" data-name="callback">-->
+<!--										<span class="btn btn-default">--><?//=GetMessage("S_CALLBACK")?><!--</span>-->
+<!--									</div>-->
+									<script id="bx24_form_button" data-skip-moving="true">
+										(function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+											(w[b].forms=w[b].forms||[]).push(arguments[0])};
+											if(w[b]['forms']) return;
+											var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+											var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+										})(window,document,'https://badenbaden34.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
+
+										b24form({"id":"5","lang":"ru","sec":"x9kokq","type":"button","click":""});
+									</script>
+									<div class="callback pull-right hidden-xs">
+										<button class="b24-web-form-popup-btn-5 btn btn-default"><?=GetMessage("S_CALLBACK")?></button>
 									</div>
 									<div class="phone pull-right hidden-xs c_2">
 										<div class="phone-number">

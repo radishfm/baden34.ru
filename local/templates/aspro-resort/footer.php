@@ -57,7 +57,7 @@
 										<i class="fa"></i>
 										<?$APPLICATION->IncludeFile(SITE_DIR."include/site-address.php", array(), array(
 												"MODE" => "html",
-												"NAME" => "Адрес",
+												"NAME" => "пїЅпїЅпїЅпїЅпїЅ",
 											)
 										);?>
 									</div>
@@ -132,6 +132,27 @@
 				)
 			);?>
 		</div>
+		<?$APPLICATION->IncludeComponent(
+			"zaiv:snowflakes",
+			"",
+			Array(
+				"COMPOSITE_FRAME_MODE" => "A",
+				"COMPOSITE_FRAME_TYPE" => "AUTO",
+				"SNOWFLAKES_ADD_JQUERY" => "N",
+				"SNOWFLAKES_COLOR" => "#89d2ff",
+				"SNOWFLAKES_IS_WORK" => "Y",
+				"SNOWFLAKES_SHADOW" => "N",
+				"SNOWFLAKES_SPEED" => "5000",
+				"SNOWFLAKES_TYPE" => "RAND",
+				"SNOWFLAKES_VOL" => "500"
+			)
+		);?>
 		<?CResort::SetMeta();?>
+		<script>
+				(function(w,d,u){
+						var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+						var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+				})(window,document,'https://cdn.bitrix24.ru/b9608271/crm/site_button/loader_1_hx7pqn.js');
+		</script>
 	</body>
 </html>
