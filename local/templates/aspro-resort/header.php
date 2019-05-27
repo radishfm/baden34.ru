@@ -6,7 +6,7 @@
 		<?IncludeTemplateLangFile(__FILE__);?>
 		<title><?$APPLICATION->ShowTitle()?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="yandex-verification" content="9f3ef1419cf4d39c" />
+		<meta name="yandex-verification" content="9e15e35a3dfb2069" />
 		<link href='<?=CMain::IsHTTPS() ? 'https' : 'http'?>://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic'; rel='stylesheet' type='text/css'>
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/bootstrap.css');?>
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/fonts/font-awesome/css/font-awesome.min.css');?>

@@ -542,7 +542,6 @@
 		</div>
 	</div>
 	<?/*news end*/?>
-	*/?>
 		
 	<?/*google map start*/?>
 	<?if($bMapIndex):?>	
